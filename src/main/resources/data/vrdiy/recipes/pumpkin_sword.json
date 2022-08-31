@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " P ",
+      " N ",
+      " P "
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_sword"
+      },
+      "P": {
+        "item": "minecraft:pumpkin"
+      }
+    },
+    "result": {
+      "item": "vrdiy:pumpkin_sword"
+    }
+  }

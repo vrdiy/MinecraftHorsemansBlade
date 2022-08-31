@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "vrdiy",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -20,7 +20,10 @@
   "entrypoints": {
     "main": [
       "net.fabricmc.example.ExampleMod"
-    ]
+    ],
+    "client": [{
+      "value": "net.fabricmc.example.ExampleModClient"
+    }]
   },
   "mixins": [
     "modid.mixins.json"
@@ -35,4 +38,5 @@
   "suggests": {
     "another-mod": "*"
   }
+  
 }
